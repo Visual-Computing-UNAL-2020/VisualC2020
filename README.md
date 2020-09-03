@@ -3,6 +3,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## URL GH-PAGES
 https://visual-computing-unal-2020.github.io/VisualC2020/ 
 
+## para Cambiar el deploy 
+
+npm run deploy
+
+
 ## Available Scripts
 
 In the project directory, you can run:
