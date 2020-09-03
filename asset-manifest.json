@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/VisualC2020/static/css/main.5f361e03.chunk.css",
+    "main.js": "/VisualC2020/static/js/main.3786322d.chunk.js",
+    "main.js.map": "/VisualC2020/static/js/main.3786322d.chunk.js.map",
+    "runtime-main.js": "/VisualC2020/static/js/runtime-main.37603b73.js",
+    "runtime-main.js.map": "/VisualC2020/static/js/runtime-main.37603b73.js.map",
+    "static/js/2.e47d8a23.chunk.js": "/VisualC2020/static/js/2.e47d8a23.chunk.js",
+    "static/js/2.e47d8a23.chunk.js.map": "/VisualC2020/static/js/2.e47d8a23.chunk.js.map",
+    "index.html": "/VisualC2020/index.html",
+    "precache-manifest.30b35e9e8f808c9755eaba019beb0b36.js": "/VisualC2020/precache-manifest.30b35e9e8f808c9755eaba019beb0b36.js",
+    "service-worker.js": "/VisualC2020/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/VisualC2020/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.e47d8a23.chunk.js.LICENSE.txt": "/VisualC2020/static/js/2.e47d8a23.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/VisualC2020/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37603b73.js",
+    "static/js/2.e47d8a23.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.3786322d.chunk.js"
+  ]
+}
