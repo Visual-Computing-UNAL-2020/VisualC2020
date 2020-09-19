@@ -1,14 +1,12 @@
 import React from 'react'
 
-class menu extends React.Component {
-
+class home extends React.Component{
     render(){
         return(
             <div>
-                <h1>menu</h1>
+                esta es la home
             </div>
         )
     }
 }
-
-export default menu
+export default home
