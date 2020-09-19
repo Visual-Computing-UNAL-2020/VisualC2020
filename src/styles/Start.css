@@ -1,0 +1,54 @@
+#courseT{
+    text-align: center;
+    align-content: center;
+}
+#fullpage{
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    -ms-overflow-style: none;  /* hide scrollbar IE and Edge */
+    scrollbar-width: none;  /* hide scrollbar Firefox */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#fullpage::-webkit-scrollbar {
+    display: none;
+}
+
+#dancer{
+    border-radius: 25px 25px 25px 25px;
+    -moz-border-radius: 25px 25px 25px 25px;
+    -webkit-border-radius: 25px 25px 25px 25px;
+}
+#profe{
+    border-style: solid;
+}
+#formacionA{
+    font-size: x-small;
+}
+.card{
+    border-style: none;
+    background-color: rgba(255,255, 255, 0.0);
+}
+.card-body{
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    background-color: rgba(251, 252, 253, 0.8);
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+.hr-start{
+    border-color: rgba(0,0, 0, 1) !important;
+    border-width: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-style: dashed;
+}
+.col{
+    text-align: justify;
+
+}
+
+
