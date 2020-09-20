@@ -13,7 +13,6 @@
 #fullpage::-webkit-scrollbar {
     display: none;
 }
-
 #dancer{
     border-radius: 25px 25px 25px 25px;
     -moz-border-radius: 25px 25px 25px 25px;
@@ -21,9 +20,6 @@
 }
 #profe{
     border-style: solid;
-}
-#formacionA{
-    font-size: x-small;
 }
 .card{
     border-style: none;
@@ -48,7 +44,6 @@
 }
 .col{
     text-align: justify;
-
 }
 
 

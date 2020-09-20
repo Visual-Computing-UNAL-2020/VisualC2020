@@ -12,12 +12,13 @@ import {
 //components
 import Start from './Components/Start'
 import Team from './Components/Team'
-import Works from './Components/Works'
+import Workshop2 from './Components/Workshop2'
 import Project from './Components/Project'
+import Workshop1 from './Components/Workshop1'
 
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
-import {Container,Row,Col} from 'react-bootstrap'
+import {Container,Row,Col,Dropdown} from 'react-bootstrap'
 
 //css
 import './App.css'
@@ -41,8 +42,13 @@ function App() {
                 <li class="nav-item">
                   <NavLink to="/team" className="btn btn-block" activeClassName="active">Integrantes</NavLink>
                 </li>
-                <li class="nav-item">
-                  <NavLink to="/works" className="btn btn-block" activeClassName="active">Trabajos</NavLink>
+                <li class="nav-item dropdown">
+                    <NavLink to="/works" className="btn btn-block dropdown-toggle" data-toggle="dropdown" activeClassName="active">Talleres</NavLink>
+                  <div id="talleresmenu"className="dropdown-menu btn-block">
+                    <NavLink to="/workshop-1" className="btn btn-block"activeClassName="active">Taller # 1</NavLink>
+                    <NavLink to="/workshop-2" className="btn btn-block"activeClassName="active">Taller # 2</NavLink>
+                  </div>
+ 
                 </li>
                 <li class="nav-item">
                   <NavLink to="/project" className="btn btn-block" activeClassName="active">Proyecto</NavLink>
@@ -57,8 +63,11 @@ function App() {
                 <Route path="/team" exact>
                   <Team/>
                 </Route>
-                <Route path="/works" exact>
-                  <Works/>
+                <Route path="/workshop-1" exact>
+                  <Workshop1/>
+                </Route>
+                <Route path="/workshop-2" exact>
+                  <Workshop2/>
                 </Route>
                 <Route path="/project" exact>
                   <Project/>

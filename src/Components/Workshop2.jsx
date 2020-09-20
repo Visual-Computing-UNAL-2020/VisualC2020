@@ -8,14 +8,15 @@ import {Container,Row,Col,Card} from 'react-bootstrap'
 //css
 
 
-class Works extends React.Component{
+class Workshop2 extends React.Component{
     render(){
         return(
-            <div>
-                los Trabajos
-            </div>
+            <Container>
+                taller 2
+                
+            </Container>
         )
     }
 }
 
-export default Works
+export default Workshop2

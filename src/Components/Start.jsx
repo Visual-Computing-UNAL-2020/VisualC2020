@@ -1,7 +1,7 @@
 import React from 'react'
 
 //images
-import profe from '../Assets/profe.jpg'
+import profe from '../Assets/fotos/profe.jpg'
 
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -18,7 +18,7 @@ class home extends React.Component{
                     <Card.Body>
                         <Row >
                             <Col className="col-sm-4">
-                                <img id="dancer" src="https://media3.giphy.com/media/7fgvY7OaNbq0w/giphy.gif?cid=ecf05e47buvm9n5i4mpkckpizlct70rb2z1yzepktvk7mlrd&rid=giphy.gif" class="img-fluid" alt="Responsive image"/>
+                                <img id="dancer" src="https://media3.giphy.com/media/7fgvY7OaNbq0w/giphy.gif?cid=ecf05e47buvm9n5i4mpkckpizlct70rb2z1yzepktvk7mlrd&rid=giphy.gif" className="img-fluid" alt="Responsive image"/>
                                 <h2 id="courseT"><p>Computacion Visual 2020 - 2</p></h2>
                             </Col>
                             <Col className="col-sm-8">
@@ -50,26 +50,20 @@ class home extends React.Component{
                                     </Col>
                                     <Col className="col-sm-9">    
                                         <h4>Profesor: <br/>Jean Pierre Charalambos Hernández </h4>
-                                        <Row>
-                                            <Col id="formacionA"className="col-sm-5">
-                                            <h6>Formacion Academica:</h6>
-                                            <ul>
-                                                <li>Doctorado Universitat Politècnica de Catalunya Doctorado en software Septiembrede2003 - Febrerode 2008 HLOD Refinement Driven by Hardware Occlusion Queries</li>
-                                                <li>Maestría/Magister UNIVERSIDAD NACIONAL DE COLOMBIA SEDE BOGOTA Magister en Ingeniería de Sistemas Enerode1999 - de 2001 Visualización de Conceptos de Programación Lineal</li>
-                                                <li>Pregrado/Universitario PONTIFICIA UNIVERSIDAD JAVERIANA Ingeniería Industrial Enerode1989 - de 1994 Diseño de un modelo matemático para la programación de la carga laboral en el banco Mercantil</li>
-                                            </ul>
-                                            </Col>
-                                            <Col className="col.sm-5">
-                                            <h6>Líneas de investigación:</h6>
-                                            <ul>
-                                                <li>Visualización de la información</li>
-                                                <li>Computación Gráfica</li>
-                                                <li>Procesamiento de Imágenes</li>
-                                            </ul>
-                                            <h6>Correo electronico:</h6>
-                                            <a href="mailto:jpcharalambosh@unal.edu.co">jpcharalambosh@unal.edu.co</a>
-                                            </Col>
-                                        </Row>
+                                        <h6>Formacion Academica:</h6>
+                                        <ul>
+                                            <li>Doctorado Universitat Politècnica de Catalunya Doctorado en software Septiembrede2003 - Febrerode 2008 HLOD Refinement Driven by Hardware Occlusion Queries</li>
+                                            <li>Maestría/Magister UNIVERSIDAD NACIONAL DE COLOMBIA SEDE BOGOTA Magister en Ingeniería de Sistemas Enerode1999 - de 2001 Visualización de Conceptos de Programación Lineal</li>
+                                            <li>Pregrado/Universitario PONTIFICIA UNIVERSIDAD JAVERIANA Ingeniería Industrial Enerode1989 - de 1994 Diseño de un modelo matemático para la programación de la carga laboral en el banco Mercantil</li>
+                                        </ul>
+                                        <h6>Líneas de investigación:</h6>
+                                        <ul>
+                                            <li>Visualización de la información</li>
+                                            <li>Computación Gráfica</li>
+                                            <li>Procesamiento de Imágenes</li>
+                                        </ul>
+                                        <h6>Correo electronico:</h6>
+                                        <a href="mailto:jpcharalambosh@unal.edu.co">jpcharalambosh@unal.edu.co</a>
                                     </Col>
                                 </Row>
                             </Col>
