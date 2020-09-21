@@ -1,21 +1,58 @@
 import React from 'react'
 
+//components
+import Canvas1 from './p5/Canvas1'
+import Canvas2 from './p5/Canvas2'
 
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
 
 //css
-import '../styles/Workshops.css'
+import '../Styles/Workshops.css'
 
 class Workshops1 extends React.Component{
 
     constructor(props){
         super(props);
+        this.column= React.createRef()
         this.state={
-            name:"algo"
+            name:"algo",
+            columnw: Number,
+            pixels: [],
+            width: Number,
+            heigth: Number
         }
     }
+
+    componentDidMount(){
+
+    }
+
+    callbackPixels=(dataPixels,w,h)=>{
+        this.setState({
+            pixels: dataPixels,
+            width: w,
+            heigth: h
+        })
+    }
+
+    grayscale=()=>{
+        let p = this.state.pixels
+        let w = this.state.w
+        let h = this.state.h
+        for(let i = 0; i< h ; i++){
+            for(let j = 0; j < w; j++){
+                let index = (j + i * w) * 4;
+                let avg = (p[index] + p[index + 1] + p[index + 2])/3;
+                p[index] = avg;
+                p[index + 1] = avg;
+                p[index + 2] = avg;
+                //img.pixels[index + 3] = alpha;
+            }
+        }
+    }
+
     render(){
         return(
             <Container id="fullpage">
@@ -35,18 +72,16 @@ class Workshops1 extends React.Component{
                             <h6>Link del taller: <a href="https://github.com/VisualComputing/imaging_ws">https://github.com/VisualComputing/imaging_ws</a></h6>
                         </Row>
                         <Row>
-                            <h6>Escala de Grises:</h6>
-                            <Row>
-                                <Col className="col-sm-4">
-                                <canvas id="graybefore" ref="graybefore" width="250px" height="300px"></canvas>
-                                </Col>
-                                <Col className="col-sm-4">
-                                <canvas id="grayafter" ref="grayafter" width="250px" height="300px"></canvas>
-                                </Col>
-                                <Col className="col-sm-4">
-                                    botones
-                                </Col>
-                            </Row>
+                            <Col ref={this.column} className="col-sm-5">
+                                <Canvas1 canvasW={375} canvasH={375} callbackPixels={this.callbackPixels}/>
+                            </Col>
+                            <Col className="col-sm-2">
+                                <button>hola</button>
+                                <button>hahah</button>
+                            </Col>
+                            <Col  className="col-sm-5">
+                                <Canvas2 canvasW={375} canvasH={375}/>
+                            </Col>
                         </Row>
                     </Card.Body>
                 </Card>

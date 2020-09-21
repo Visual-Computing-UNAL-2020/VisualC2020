@@ -21,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Dropdown} from 'react-bootstrap'
 
 //css
-import './App.css'
+import './Styles/App.css'
 
 //images
 import tesseract from './Assets/tesseract.png'
@@ -32,7 +32,7 @@ function App() {
       <Container id="App">
           <Row className="row row-cols-2">
             <Col id="navigator"className="col-sm-2">
-              <img className="mx-auto d-block" src={tesseract} />
+              <a href="https://visual-computing-unal-2020.github.io/VisualC2020/ "><img className="mx-auto d-block" src={tesseract} /></a>
               <h5 id="title"><p>Computacion Visual</p></h5>
               <hr/>
               <ul class="nav flex-column">
