@@ -37,21 +37,21 @@ function App() {
               <hr/>
               <ul class="nav flex-column">
                 <li class="nav-item">
-                  <NavLink to="/" className="btn btn-block active">Inicio</NavLink>
+                  <NavLink to="/VisualC2020/" className="btn btn-block active">Inicio</NavLink>
                 </li>
                 <li class="nav-item">
-                  <NavLink to="/team" className="btn btn-block" activeClassName="active">Integrantes</NavLink>
+                  <NavLink to="/VisualC2020/team" className="btn btn-block" activeClassName="active">Integrantes</NavLink>
                 </li>
                 <li class="nav-item dropdown">
-                    <NavLink to="/works" className="btn btn-block dropdown-toggle" data-toggle="dropdown" activeClassName="active">Talleres</NavLink>
+                    <NavLink to="/VisualC2020/works" className="btn btn-block dropdown-toggle" data-toggle="dropdown" activeClassName="active">Talleres</NavLink>
                   <div id="talleresmenu"className="dropdown-menu btn-block">
-                    <NavLink to="/workshop-1" className="btn btn-block"activeClassName="active">Taller # 1</NavLink>
-                    <NavLink to="/workshop-2" className="btn btn-block"activeClassName="active">Taller # 2</NavLink>
+                    <NavLink to="/VisualC2020/workshop-1" className="btn btn-block"activeClassName="active">Taller # 1</NavLink>
+                    <NavLink to="/VisualC2020/workshop-2" className="btn btn-block"activeClassName="active">Taller # 2</NavLink>
                   </div>
  
                 </li>
                 <li class="nav-item">
-                  <NavLink to="/project" className="btn btn-block" activeClassName="active">Proyecto</NavLink>
+                  <NavLink to="/VisualC2020/project" className="btn btn-block" activeClassName="active">Proyecto</NavLink>
                 </li>
               </ul>
             </Col>
