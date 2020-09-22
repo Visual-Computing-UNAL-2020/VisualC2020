@@ -57,11 +57,11 @@ function App() {
             </Col>
             <Col id="fullcontent" className="col-sm-10">
               <Switch>
-                <Route path="/" exact component={Start}></Route>
-                <Route path="/team" exact component={Team}></Route>
-                <Route path="/workshop-1" exact component={Workshop1}></Route>
-                <Route path="/workshop-2" exact component={Workshop2}></Route>
-                <Route path="/project" exact component={Project}></Route>
+                <Route path="/VisualC2020/" exact component={Start}></Route>
+                <Route path="/VisualC2020/team" exact component={Team}></Route>
+                <Route path="/VisualC2020/workshop-1" exact component={Workshop1}></Route>
+                <Route path="/VisualC2020/workshop-2" exact component={Workshop2}></Route>
+                <Route path="/VisualC2020/project" exact component={Project}></Route>
               </Switch>
             </Col>
           </Row>
