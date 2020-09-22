@@ -1,31 +1,32 @@
 {
   "files": {
-    "main.css": "/VisualC2020/static/css/main.70675227.chunk.css",
-    "main.js": "/VisualC2020/static/js/main.9e1d93b4.chunk.js",
-    "main.js.map": "/VisualC2020/static/js/main.9e1d93b4.chunk.js.map",
+    "main.css": "/VisualC2020/static/css/main.cab122ca.chunk.css",
+    "main.js": "/VisualC2020/static/js/main.48936c17.chunk.js",
+    "main.js.map": "/VisualC2020/static/js/main.48936c17.chunk.js.map",
     "runtime-main.js": "/VisualC2020/static/js/runtime-main.37603b73.js",
     "runtime-main.js.map": "/VisualC2020/static/js/runtime-main.37603b73.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.328c91b6.chunk.js": "/VisualC2020/static/js/2.328c91b6.chunk.js",
-    "static/js/2.328c91b6.chunk.js.map": "/VisualC2020/static/js/2.328c91b6.chunk.js.map",
+    "static/js/2.606c6d84.chunk.js": "/VisualC2020/static/js/2.606c6d84.chunk.js",
+    "static/js/2.606c6d84.chunk.js.map": "/VisualC2020/static/js/2.606c6d84.chunk.js.map",
     "index.html": "/VisualC2020/index.html",
-    "precache-manifest.0f41f69a0764c98e2af9f2d005c0fe32.js": "/VisualC2020/precache-manifest.0f41f69a0764c98e2af9f2d005c0fe32.js",
+    "precache-manifest.ee5f977852c847f0e0080f1c4516c012.js": "/VisualC2020/precache-manifest.ee5f977852c847f0e0080f1c4516c012.js",
     "service-worker.js": "/VisualC2020/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.70675227.chunk.css.map": "/VisualC2020/static/css/main.70675227.chunk.css.map",
-    "static/js/2.328c91b6.chunk.js.LICENSE.txt": "/VisualC2020/static/js/2.328c91b6.chunk.js.LICENSE.txt",
+    "static/css/main.cab122ca.chunk.css.map": "/VisualC2020/static/css/main.cab122ca.chunk.css.map",
+    "static/js/2.606c6d84.chunk.js.LICENSE.txt": "/VisualC2020/static/js/2.606c6d84.chunk.js.LICENSE.txt",
     "static/media/Daniel.jpeg": "/VisualC2020/static/media/Daniel.c0a7d23b.jpeg",
     "static/media/Fabian.jpeg": "/VisualC2020/static/media/Fabian.c2ddf06b.jpeg",
     "static/media/Ivan.jpg": "/VisualC2020/static/media/Ivan.3fb02902.jpg",
     "static/media/Tomas.jpeg": "/VisualC2020/static/media/Tomas.657f7749.jpeg",
-    "static/media/index.css": "/VisualC2020/static/media/backgraund 2.7c0676a4.jpg",
+    "static/media/backgraund.jpg": "/VisualC2020/static/media/backgraund.b78e8366.jpg",
+    "static/media/index.css": "/VisualC2020/static/media/backgraund2.7c0676a4.jpg",
     "static/media/unal.png": "/VisualC2020/static/media/unal.caaf8693.png"
   },
   "entrypoints": [
     "static/js/runtime-main.37603b73.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.328c91b6.chunk.js",
-    "static/css/main.70675227.chunk.css",
-    "static/js/main.9e1d93b4.chunk.js"
+    "static/js/2.606c6d84.chunk.js",
+    "static/css/main.cab122ca.chunk.css",
+    "static/js/main.48936c17.chunk.js"
   ]
 }
