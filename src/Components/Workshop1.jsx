@@ -76,8 +76,8 @@ class Workshops1 extends React.Component{
                                 <Canvas1 canvasW={375} canvasH={375} callbackPixels={this.callbackPixels}/>
                             </Col>
                             <Col className="col-sm-2">
-                                <button>hola</button>
-                                <button>hahah</button>
+                                <button>button 1</button>
+                                <button>button 2</button>
                             </Col>
                             <Col  className="col-sm-5">
                                 <Canvas2 canvasW={375} canvasH={375}/>

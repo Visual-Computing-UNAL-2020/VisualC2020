@@ -1,7 +1,7 @@
 import React from 'react'
 import Sketch from 'react-p5'
 //image
-import Ivan from '../../Assets/fotos/Ivan.jpg'
+import backgraund2 from '../../Assets/backgraund.jpg'
 
 var url = 'https://www.technocrazed.com/wp-content/uploads/2015/12/city-wallpaper-34.jpg';
 var img;
@@ -20,8 +20,8 @@ class Canvas2 extends React.Component {
         p5.createCanvas(this.props.canvasW,this.props.canvasH).parent(parent)
         p5.frameRate(60)
         p5.background(0);
-        img = p5.loadImage(Ivan)
-        img2 = p5.loadImage(Ivan)
+        img = p5.loadImage(backgraund2)
+        img2 = p5.loadImage(backgraund2)
        
     }
     draw=(p5)=>{
