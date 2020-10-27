@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card,Carousel} from 'react-bootstrap'
 
 //css
-import '../Styles/Team.css'
+import '../styles/Team.css'
 
 class Team extends React.Component{
     render(){

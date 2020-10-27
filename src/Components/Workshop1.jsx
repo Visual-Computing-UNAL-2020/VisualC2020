@@ -9,7 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
 
 //css
-import '../Styles/Workshops.css'
+import '../styles/Workshops.css'
 
 class Workshops1 extends React.Component{
 

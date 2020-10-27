@@ -21,7 +21,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Dropdown} from 'react-bootstrap'
 
 //css
-import './Styles/App.css'
+import './styles/App.css'
 
 //images
 import tesseract from './Assets/tesseract.png'
