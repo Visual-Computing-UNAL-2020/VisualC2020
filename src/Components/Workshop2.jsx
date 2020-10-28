@@ -5,21 +5,65 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
 import { Table } from 'react-bootstrap';
+
 //css
 import '../styles/Workshops.css'
+import SteppingFeetCanvas from "./p5/Workshop2-Canvas/SteppingFeetCanvas";
+import Canvas1 from "./p5/Canvas1";
 
 class Workshop2 extends React.Component{
+
     render(){
         return(
             <Container id="fullpage">
                 <Card >
                     <Card.Body>
-                        <h4 className="display-5 text-danger">Taller ilusiones ópticas</h4>
+                        <h3 className="display-5 text-danger text-center">Taller ilusiones ópticas</h3>
                         <hr className="my-3 border border-secondary  border-2"/>
-                        <h5> Tareas</h5>
+                        <h4> Tareas</h4>
                         <p>Implementar al menos 6 ilusiones de tres tipos distintos (paradójicas, geométricas, ambiguas, etc.), al menos dos con movimiento y dos con interactividad</p>
+                        <ul>
+                            <li>
+                                <h5> “Stepping feet” Motion Illusion</h5>
+                                <br/>
+                                <div>
+                                    <SteppingFeetCanvas canvasW={900} canvasH={400}></SteppingFeetCanvas>
+                                </div>
+                                <br/>
+                            </li>
+                            <li>
+                                <h5> IlusionName2</h5>
+                                <div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <h5> IlusionName3</h5>
+                                <div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <h5> IlusionName4</h5>
+                                <div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <h5> IlusionName5</h5>
+                                <div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <h5> IlusionName6</h5>
+                                <div>
+
+                                </div>
+                            </li>
+                        </ul>
                         <hr className="my-3 border border-secondary  border-2"/>
-                        <h5> Discusión</h5>
+                        <h4> Discusión</h4>
                         <p>1. Complete la tabla</p>
                         <Table striped bordered hover size="sm">
                             <thead style={ {backgroundColor: 'rgba(50, 115, 220, 0.4)'}}>

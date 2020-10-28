@@ -35,14 +35,14 @@ function App() {
               <a href="https://visual-computing-unal-2020.github.io/VisualC2020/ "><img className="mx-auto d-block" src={tesseract} /></a>
               <h5 id="title"><p>Computacion Visual</p></h5>
               <hr/>
-              <ul class="nav flex-column">
-                <li class="nav-item">
+              <ul className="nav flex-column">
+                <li className="nav-item">
                   <NavLink to="/VisualC2020/" className="btn btn-block active">Inicio</NavLink>
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink to="/VisualC2020/team" className="btn btn-block" activeClassName="active">Integrantes</NavLink>
                 </li>
-                <li class="nav-item dropdown">
+                <li className="nav-item dropdown">
                     <NavLink to="/VisualC2020/works" className="btn btn-block dropdown-toggle" data-toggle="dropdown" activeClassName="active">Talleres</NavLink>
                   <div id="talleresmenu"className="dropdown-menu btn-block">
                     <NavLink to="/VisualC2020/workshop-1" className="btn btn-block"activeClassName="active">Taller # 1</NavLink>
@@ -50,7 +50,7 @@ function App() {
                   </div>
  
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                   <NavLink to="/VisualC2020/project" className="btn btn-block" activeClassName="active">Proyecto</NavLink>
                 </li>
               </ul>
