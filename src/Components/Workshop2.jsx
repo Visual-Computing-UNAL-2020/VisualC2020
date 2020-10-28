@@ -10,6 +10,8 @@ import { Table } from 'react-bootstrap';
 import '../styles/Workshops.css'
 import SteppingFeetCanvas from "./p5/Workshop2-Canvas/SteppingFeetCanvas";
 import Canvas1 from "./p5/Canvas1";
+import EbbinghausCanvas from "./p5/Workshop2-Canvas/EbbinghausCanvas";
+import PenroseTriangleCanvas from "./p5/Workshop2-Canvas/PenroseTriangleCanvas";
 
 class Workshop2 extends React.Component{
 
@@ -26,21 +28,23 @@ class Workshop2 extends React.Component{
                             <li>
                                 <h5> “Stepping feet” Motion Illusion</h5>
                                 <br/>
-                                <div>
-                                    <SteppingFeetCanvas canvasW={900} canvasH={400}></SteppingFeetCanvas>
+                                <div className="text-center">
+                                    <SteppingFeetCanvas canvasW={700} canvasH={400}></SteppingFeetCanvas>
                                 </div>
                                 <br/>
                             </li>
                             <li>
-                                <h5> IlusionName2</h5>
+                                <h5> EbbinghausCanvas Illusion </h5>
+                                <br/>
                                 <div>
-
+                                    <EbbinghausCanvas canvasW={900} canvasH={600}></EbbinghausCanvas>
                                 </div>
+                                <br/>
                             </li>
                             <li>
-                                <h5> IlusionName3</h5>
-                                <div>
-
+                                <h5> Penrose Triangle</h5>
+                                <div className="text-center">
+                                    <PenroseTriangleCanvas canvasW={700} canvasH={600}></PenroseTriangleCanvas>
                                 </div>
                             </li>
                             <li>
@@ -66,7 +70,7 @@ class Workshop2 extends React.Component{
                         <h4> Discusión</h4>
                         <p>1. Complete la tabla</p>
                         <Table striped bordered hover size="sm">
-                            <thead style={ {backgroundColor: 'rgba(50, 115, 220, 0.4)'}}>
+                            <thead style={ {backgroundColor: 'rgba(50, 115, 220, 0.4)'}} className="text-center p-0">
                             <tr>
                                 <th>Ilusión</th>
                                 <th>Categoria</th>
@@ -75,46 +79,46 @@ class Workshop2 extends React.Component{
                                 <th>URL código base (si aplica)</th>
                             </tr>
                             </thead>
-                            <tbody>
+                            <tbody className="text-center">
                             <tr>
-                                <td>ilusionName1</td>
-                                <td>ilusionCategory1</td>
-                                <td>ilusionReference1</td>
-                                <td>ilusionInteractiveType1</td>
-                                <td>url1</td>
+                                <td>Stuart Anstis ilusion</td>
+                                <td>Movimiento</td>
+                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
+                                <td>Si se hace click en el canvas, se retiran las lineas de fondo</td>
+                                <td>- - -</td>
                             </tr>
                             <tr>
-                                <td>ilusionName2</td>
-                                <td>ilusionCategory2</td>
-                                <td>ilusionReference2</td>
-                                <td>ilusionInteractiveType2</td>
-                                <td>url2</td>
+                                <td>Ebbinghaus Illusion</td>
+                                <td> </td>
+                                <td><a href="https://michaelbach.de/ot/cog-Ebbinghaus/index.html">Click</a></td>
+                                <td>Los círculos azules desaparecen al hacer click</td>
+                                <td>- - -</td>
                             </tr>
                             <tr>
-                                <td>ilusionName3</td>
-                                <td>ilusionCategory3</td>
-                                <td>ilusionReference3</td>
-                                <td>ilusionInteractiveType3</td>
-                                <td>url4</td>
+                                <td>Penrose Triangle</td>
+                                <td>Paradoxal</td>
+                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
+                                <td>Cambia los colores al hacer click</td>
+                                <td>- - -</td>
                             </tr>
                             <tr>
                                 <td>ilusionName4</td>
                                 <td>ilusionCategory4</td>
-                                <td>ilusionReference4</td>
+                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
                                 <td>ilusionInteractiveType4</td>
                                 <td>url4</td>
                             </tr>
                             <tr>
                                 <td>ilusionName5</td>
                                 <td>ilusionCategory5</td>
-                                <td>ilusionReference5</td>
+                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
                                 <td>ilusionInteractiveType5</td>
                                 <td>url5</td>
                             </tr>
                             <tr>
                                 <td>ilusionName6</td>
                                 <td>ilusionCategory6</td>
-                                <td>ilusionReference6</td>
+                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
                                 <td>ilusionInteractiveType6</td>
                                 <td>url6</td>
                             </tr>

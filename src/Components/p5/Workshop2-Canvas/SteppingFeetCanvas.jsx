@@ -61,9 +61,7 @@ class SteppingFeetCanvas extends React.Component {
         }
 
     }
-    componentDidUpdate(){
 
-    }
     send=()=>{
         this.props.callbackPixels(this.state.pixels,this.state.w,this.state.h);
     }
