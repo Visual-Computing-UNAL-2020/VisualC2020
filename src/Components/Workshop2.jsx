@@ -14,6 +14,7 @@ import EbbinghausCanvas from "./p5/Workshop2-Canvas/EbbinghausCanvas";
 import PenroseTriangleCanvas from "./p5/Workshop2-Canvas/PenroseTriangleCanvas";
 import BreathingSquare from "./p5/Workshop2-Canvas/BreathingSquare";
 import Circles from "./p5/Workshop2-Canvas/Circles";
+import HermannGrid from "./p5/Workshop2-Canvas/HermannGrid";
 class Workshop2 extends React.Component{
 
     render(){
@@ -61,9 +62,9 @@ class Workshop2 extends React.Component{
                                 </div>
                             </li>
                             <li>
-                                <h5> IlusionName6</h5>
-                                <div>
-
+                                <h5> Hermann Grid</h5>
+                                <div className="text-center">
+                                    <HermannGrid canvasW={400} canvasH={400}></HermannGrid>
                                 </div>
                             </li>
                         </ul>
@@ -113,15 +114,15 @@ class Workshop2 extends React.Component{
                                 <td>Fraser spiral illusion</td>
                                 <td>Geometrica </td>
                                 <td><a href="https://en.wikipedia.org/wiki/Fraser_spiral_illusion">Click</a></td>
-                                <td>al hacer click se superponen lineas circulares que develan que no existen espirales</td>
+                                <td>Al hacer click se superponen lineas circulares que develan que no existen espirales</td>
                                 <td>- - -</td>
                             </tr>
                             <tr>
-                                <td>ilusionName6</td>
-                                <td>ilusionCategory6</td>
-                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
-                                <td>ilusionInteractiveType6</td>
-                                <td>url6</td>
+                                <td>Hermann Grid</td>
+                                <td>Geometrica</td>
+                                <td><a href="https://michaelbach.de/ot/lum-herGrid/index.html">Click</a></td>
+                                <td>Cuando miramos la imagen aparecen parches negros en las intersecciones aun cuando no existen </td>
+                                <td>- - -</td>
                             </tr>
                             </tbody>
                         </Table>
