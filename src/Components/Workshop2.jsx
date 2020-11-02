@@ -15,6 +15,7 @@ import PenroseTriangleCanvas from "./p5/Workshop2-Canvas/PenroseTriangleCanvas";
 import BreathingSquare from "./p5/Workshop2-Canvas/BreathingSquare";
 import Circles from "./p5/Workshop2-Canvas/Circles";
 import HermannGrid from "./p5/Workshop2-Canvas/HermannGrid";
+import HeringIllusion from "./p5/Workshop2-Canvas/HeringIllusion"
 class Workshop2 extends React.Component{
 
     render(){
@@ -44,12 +45,6 @@ class Workshop2 extends React.Component{
                                 <br/>
                             </li>
                             <li>
-                                <h5> Penrose Triangle</h5>
-                                <div className="text-center">
-                                    <PenroseTriangleCanvas canvasW={700} canvasH={600}></PenroseTriangleCanvas>
-                                </div>
-                            </li>
-                            <li>
                                 <h5> Breathing Square</h5>
                                 <div className="text-center">
                                     <BreathingSquare canvasW={500} canvasH={500}></BreathingSquare>
@@ -65,6 +60,12 @@ class Workshop2 extends React.Component{
                                 <h5> Hermann Grid</h5>
                                 <div className="text-center">
                                     <HermannGrid canvasW={400} canvasH={400}></HermannGrid>
+                                </div>
+                            </li>
+                            <li>
+                                <h5> Hering Illusion</h5>
+                                <div className="text-center">
+                                    <HeringIllusion canvasW={600} canvasH={600}></HeringIllusion>
                                 </div>
                             </li>
                         </ul>
@@ -97,13 +98,6 @@ class Workshop2 extends React.Component{
                                 <td>- - -</td>
                             </tr>
                             <tr>
-                                <td>Penrose Triangle</td>
-                                <td>Paradoxal</td>
-                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
-                                <td>Cambia los colores al hacer click</td>
-                                <td>- - -</td>
-                            </tr>
-                            <tr>
                                 <td>Breathing Square</td>
                                 <td>Movimiento / Geometrica / Distorsionante</td>
                                 <td><a href="https://michaelbach.de/ot/mot-breathingSquare/index.html">Click</a></td>
@@ -122,6 +116,13 @@ class Workshop2 extends React.Component{
                                 <td>Geometrica</td>
                                 <td><a href="https://michaelbach.de/ot/lum-herGrid/index.html">Click</a></td>
                                 <td>Cuando miramos la imagen aparecen parches negros en las intersecciones aun cuando no existen </td>
+                                <td>- - -</td>
+                            </tr>
+                            <tr>
+                                <td>Hering Illusion</td>
+                                <td>Geometrica</td>
+                                <td><a href="https://michaelbach.de/ot/ang-hering/index.html">Click</a></td>
+                                <td>Las lineas Parecen estar torcidas pero al hacer Clic se devela que son Totalmente rectas </td>
                                 <td>- - -</td>
                             </tr>
                             </tbody>
