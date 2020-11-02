@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card,Modal} from 'react-bootstrap'
 
 //css
-import '../styles/Workshops.css'
+import '../Styles/Workshops.css'
 
 class Workshops1 extends React.Component{
 

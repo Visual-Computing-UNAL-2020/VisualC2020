@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
 
 //css
-import '../styles/Start.css'
+import '../Styles/Start.css'
 
 class home extends React.Component{
     render(){

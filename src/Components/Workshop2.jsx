@@ -7,12 +7,13 @@ import {Container,Row,Col,Card} from 'react-bootstrap'
 import { Table } from 'react-bootstrap';
 
 //css
-import '../styles/Workshops.css'
+import '../Styles/Workshops.css'
 import SteppingFeetCanvas from "./p5/Workshop2-Canvas/SteppingFeetCanvas";
-import Canvas1 from "./p5/Canvas1";
+//import Canvas1 from "./p5/Canvas1";
 import EbbinghausCanvas from "./p5/Workshop2-Canvas/EbbinghausCanvas";
 import PenroseTriangleCanvas from "./p5/Workshop2-Canvas/PenroseTriangleCanvas";
-
+import BreathingSquare from "./p5/Workshop2-Canvas/BreathingSquare";
+import Circles from "./p5/Workshop2-Canvas/Circles";
 class Workshop2 extends React.Component{
 
     render(){
@@ -36,7 +37,7 @@ class Workshop2 extends React.Component{
                             <li>
                                 <h5> EbbinghausCanvas Illusion </h5>
                                 <br/>
-                                <div>
+                                <div className="text-center">
                                     <EbbinghausCanvas canvasW={900} canvasH={600}></EbbinghausCanvas>
                                 </div>
                                 <br/>
@@ -48,15 +49,15 @@ class Workshop2 extends React.Component{
                                 </div>
                             </li>
                             <li>
-                                <h5> IlusionName4</h5>
-                                <div>
-
+                                <h5> Breathing Square</h5>
+                                <div className="text-center">
+                                    <BreathingSquare canvasW={500} canvasH={500}></BreathingSquare>
                                 </div>
                             </li>
                             <li>
-                                <h5> IlusionName5</h5>
-                                <div>
-
+                                <h5> Fraser spiral illusion</h5>
+                                <div className="text-center">
+                                   <Circles canvasW={650} canvasH={585} ></Circles>
                                 </div>
                             </li>
                             <li>
@@ -102,18 +103,18 @@ class Workshop2 extends React.Component{
                                 <td>- - -</td>
                             </tr>
                             <tr>
-                                <td>ilusionName4</td>
-                                <td>ilusionCategory4</td>
-                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
-                                <td>ilusionInteractiveType4</td>
-                                <td>url4</td>
+                                <td>Breathing Square</td>
+                                <td>Movimiento / Geometrica / Distorsionante</td>
+                                <td><a href="https://michaelbach.de/ot/mot-breathingSquare/index.html">Click</a></td>
+                                <td>Al hacer click desaparecen los cuadrados amarillos lo que devela la ilusion</td>
+                                <td>- - -</td>
                             </tr>
                             <tr>
-                                <td>ilusionName5</td>
-                                <td>ilusionCategory5</td>
-                                <td><a href="https://michaelbach.de/ot/mot-feetLin/index.html">Click</a></td>
-                                <td>ilusionInteractiveType5</td>
-                                <td>url5</td>
+                                <td>Fraser spiral illusion</td>
+                                <td>Geometrica </td>
+                                <td><a href="https://en.wikipedia.org/wiki/Fraser_spiral_illusion">Click</a></td>
+                                <td>al hacer click se superponen lineas circulares que develan que no existen espirales</td>
+                                <td>- - -</td>
                             </tr>
                             <tr>
                                 <td>ilusionName6</td>
