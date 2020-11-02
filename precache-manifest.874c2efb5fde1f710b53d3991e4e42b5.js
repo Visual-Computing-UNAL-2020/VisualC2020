@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe2cffa7ed312a2a9845bc16fb24bc11",
+    "revision": "9d3f8dcba0dab63587c4ec2fc3c216e5",
     "url": "/VisualC2020/index.html"
   },
   {
-    "revision": "0c2d02373aa35d4c85fb",
+    "revision": "9f9f75ecd73ce185c0f3",
     "url": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "7a77ecef096c9c844ff4",
-    "url": "/VisualC2020/static/css/main.6457bbff.chunk.css"
+    "revision": "eac99d4a51052be4dc17",
+    "url": "/VisualC2020/static/css/main.cab122ca.chunk.css"
   },
   {
-    "revision": "0c2d02373aa35d4c85fb",
-    "url": "/VisualC2020/static/js/2.b05b6ac8.chunk.js"
+    "revision": "9f9f75ecd73ce185c0f3",
+    "url": "/VisualC2020/static/js/2.800c1b30.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/VisualC2020/static/js/2.b05b6ac8.chunk.js.LICENSE.txt"
+    "url": "/VisualC2020/static/js/2.800c1b30.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7a77ecef096c9c844ff4",
-    "url": "/VisualC2020/static/js/main.53d7a8d1.chunk.js"
+    "revision": "eac99d4a51052be4dc17",
+    "url": "/VisualC2020/static/js/main.82bf31ba.chunk.js"
   },
   {
     "revision": "3d2a80add4661be4e1a8",
@@ -44,12 +44,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualC2020/static/media/Tomas.657f7749.jpeg"
   },
   {
-    "revision": "b78e8366162cd648b6d8ac70c4e15424",
-    "url": "/VisualC2020/static/media/backgraund.b78e8366.jpg"
-  },
-  {
     "revision": "7c0676a4eb9e5ee7ca3cc26e25896cff",
     "url": "/VisualC2020/static/media/backgraund2.7c0676a4.jpg"
+  },
+  {
+    "revision": "74b77340a665400615756c0c517b615c",
+    "url": "/VisualC2020/static/media/fullcolor.74b77340.jpg"
+  },
+  {
+    "revision": "777e72e402fca6bdf27aa69ebd49c222",
+    "url": "/VisualC2020/static/media/imagen.777e72e4.png"
+  },
+  {
+    "revision": "dd90cba4b82bcf5d4d2a2732f9b7e588",
+    "url": "/VisualC2020/static/media/imagen2.dd90cba4.png"
   },
   {
     "revision": "caaf8693e5c83e7bab33c058126862e5",
