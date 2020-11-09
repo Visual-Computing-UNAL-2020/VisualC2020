@@ -81,6 +81,9 @@ class Workshop2 extends React.Component{
                             </li>
                             <li>
                                 <h5> Hering Illusion</h5>
+                                <p>La ilusión de Hering es una de las ilusiones geométrico-ópticas y fue descubierta por el fisiólogo alemán Ewald Hering en 1861. Cuando se presentan dos líneas rectas y paralelas frente a un fondo radial (como los radios de una bicicleta), las líneas parecen como si estuvieran inclinadas hacia afuera.</p>
+                                <p>Hay varias explicaciones posibles de por qué la distorsión perceptiva producida por el patrón radiante. Hering atribuyó la ilusión a una sobreestimación del ángulo formado en los puntos de intersección. Si es cierto, entonces la rectitud de las líneas paralelas cede a la de las líneas radiantes, lo que implica que existe un orden jerárquico entre los componentes de tal ilusión. Otros han sugerido que la sobreestimación del ángulo es el resultado de la inhibición lateral en la corteza visual, mientras que otros han postulado un sesgo inherente a la extrapolación de información de ángulos 3D a partir de proyecciones 2D.</p>
+                              
                                 <div className="text-center">
                                     <HeringIllusion canvasW={600} canvasH={600}></HeringIllusion>
                                 </div>
