@@ -57,13 +57,15 @@ class Workshop2 extends React.Component{
                             </li>
                             <li>
                                 <h5> Breathing Square</h5>
-                                <p>Por lo general, somos muy hábiles para detectar e identificar los límites de la superficie a pesar de la información óptica incompleta. Sin embargo, en las "ilusiones que respiran", las superficies que giran rígidamente parecen deformarse, aunque un proceso sencillo de interpolación geométrica a través del espacio reconstruiría el límite de la superficie verídica. En general, se cree que tal resultado no rígido depende de la imposibilidad de aplicar una restricción de rigidez a través de discontinuidades espacio-temporales.
+                                <p>En las "ilusiones que respiran", las superficies que giran rígidamente parecen deformarse, aunque un proceso sencillo de interpolación geométrica a través del espacio reconstruiría el límite de la superficie verídica. En general, se cree que tal resultado no rígido depende de la imposibilidad de aplicar una restricción de rigidez a través de discontinuidades espacio-temporales.</p>
                                 <div className="text-center">
                                     <BreathingSquare canvasW={500} canvasH={500}></BreathingSquare>
                                 </div>
                             </li>
                             <li>
                                 <h5> Fraser spiral illusion</h5>
+                                <p>La ilusión es también conocida como la espiral falsa, o por su nombre original, la ilusión del cordón retorcido. La superposición de arcos segmentados en blanco y negro aparenta formar una espiral; aunque en realidad los arcos son una serie de círculos concéntricos.</p>
+                                <p>La distorsión visual está producida por la combinación de un patrón de líneas regulares con partes desalineadas. La ilusión de Zöllner la  y la ilusión de la pared de la cafetería están basadas en un principio similar, como muchos otros efectos visuales, en los que una secuencia de elementos inclinados causa que se perciban giros irreales y desviaciones.</p>
                                 <div className="text-center">
                                    <Circles canvasW={650} canvasH={585} ></Circles>
                                 </div>
