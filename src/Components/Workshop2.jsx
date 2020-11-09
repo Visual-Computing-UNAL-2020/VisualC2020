@@ -7,7 +7,7 @@ import {Container,Row,Col,Card} from 'react-bootstrap'
 import { Table } from 'react-bootstrap';
 
 //css
-import '../Styles/Workshops.css'
+import '../styles/Workshops.css'
 import SteppingFeetCanvas from "./p5/Workshop2-Canvas/SteppingFeetCanvas";
 //import Canvas1 from "./p5/Canvas1";
 import EbbinghausCanvas from "./p5/Workshop2-Canvas/EbbinghausCanvas";
@@ -31,6 +31,10 @@ class Workshop2 extends React.Component{
                             <li>
                                 <h5> “Stepping feet” Motion Illusion</h5>
                                 <br/>
+                                <p>“Stepping feet” Motion Illusion es un fenómeno de percepción de movimiento que involucra dos 'buses', uno azul y otro amarillo. Aunque ambos buses se mueven a una velocidad constante, su velocidad percibida varía dramáticamente, cuando el autobús azul se encuentra sobre las franjas blancas, el contraste es alto (azul oscuro frente a blanco) y fácilmente visible, por lo que parece moverse más rápido que su velocidad. Por el contrario, cuando el bus azul está contra las franjas negras, el contraste es bajo (azul oscuro contra negro) y más difícil de ver, por lo que el movimiento parece más lentoreal.
+
+                                    En general, los movimientos de mayor contraste se ven más rápido que aquellos con menor contraste. El efecto desaparece cuando se elimina la textura rayada de la calle porque no queda contraste, mostrando cómo el fondo de un objeto puede tener un efecto significativo en su velocidad percibida. </p>
+                                <br/>
                                 <div className="text-center">
                                     <SteppingFeetCanvas canvasW={700} canvasH={400}></SteppingFeetCanvas>
                                 </div>
@@ -38,6 +42,13 @@ class Workshop2 extends React.Component{
                             </li>
                             <li>
                                 <h5> EbbinghausCanvas Illusion </h5>
+                                <br/>
+
+                                La ilusión de Ebbinghaus consiste en un círculo rodeado en una imagen por círculos más pequeños y en otra por círculos más grandes. El espectador tiende a percibir el círculo rodeado por círculos más pequeños como más grande que el círculo en la otra imagen, aunque ambos son exactamente del mismo tamaño.
+
+                                La diferencia en la percepción del tamaño se debe a las señales visuales circundantes (círculos circundantes más grandes o más pequeños) y la forma en que el cerebro procesa estas señales visuales.
+
+                                <br/>
                                 <br/>
                                 <div className="text-center">
                                     <EbbinghausCanvas canvasW={900} canvasH={600}></EbbinghausCanvas>
