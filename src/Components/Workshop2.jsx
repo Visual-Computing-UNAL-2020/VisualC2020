@@ -57,6 +57,7 @@ class Workshop2 extends React.Component{
                             </li>
                             <li>
                                 <h5> Breathing Square</h5>
+                                <p>Por lo general, somos muy hábiles para detectar e identificar los límites de la superficie a pesar de la información óptica incompleta. Sin embargo, en las "ilusiones que respiran", las superficies que giran rígidamente parecen deformarse, aunque un proceso sencillo de interpolación geométrica a través del espacio reconstruiría el límite de la superficie verídica. En general, se cree que tal resultado no rígido depende de la imposibilidad de aplicar una restricción de rigidez a través de discontinuidades espacio-temporales.
                                 <div className="text-center">
                                     <BreathingSquare canvasW={500} canvasH={500}></BreathingSquare>
                                 </div>
