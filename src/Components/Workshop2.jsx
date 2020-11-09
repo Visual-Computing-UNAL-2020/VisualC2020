@@ -72,6 +72,9 @@ class Workshop2 extends React.Component{
                             </li>
                             <li>
                                 <h5> Hermann Grid</h5>
+                                <p>La ilusión se caracteriza por manchas grises "fantasmales" percibidas en las intersecciones de una cuadrícula blanca (o de color claro) sobre un fondo negro. Las manchas grises desaparecen al mirar directamente a una intersección.</p>
+                                <p>Esta ilusión a menudo se explica por un proceso neural llamado inhibición lateral .  La intensidad en un punto del sistema visual no es simplemente el resultado de un solo receptor , sino el resultado de un grupo de receptores que responden a la presentación de estímulos en lo que se llama un campo receptivo.</p>
+
                                 <div className="text-center">
                                     <HermannGrid canvasW={400} canvasH={400}></HermannGrid>
                                 </div>
