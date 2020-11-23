@@ -15,6 +15,7 @@ import Team from './Components/Team'
 import Workshop2 from './Components/Workshop2'
 import Project from './Components/Project'
 import Workshop1 from './Components/Workshop1'
+import Workshop3 from './Components/Workshop3'
 
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -47,6 +48,7 @@ function App() {
                   <div id="talleresmenu"className="dropdown-menu btn-block">
                     <NavLink to="/VisualC2020/workshop-1" className="btn btn-block"activeClassName="active">Taller # 1</NavLink>
                     <NavLink to="/VisualC2020/workshop-2" className="btn btn-block"activeClassName="active">Taller # 2</NavLink>
+					<NavLink to="/VisualC2020/workshop-3" className="btn btn-block"activeClassName="active">Taller # 3</NavLink>
                   </div>
  
                 </li>
@@ -61,6 +63,7 @@ function App() {
                 <Route path="/VisualC2020/team" exact component={Team}></Route>
                 <Route path="/VisualC2020/workshop-1" exact component={Workshop1}></Route>
                 <Route path="/VisualC2020/workshop-2" exact component={Workshop2}></Route>
+				<Route path="/VisualC2020/workshop-3" exact component={Workshop3}></Route>
                 <Route path="/VisualC2020/project" exact component={Project}></Route>
               </Switch>
             </Col>
