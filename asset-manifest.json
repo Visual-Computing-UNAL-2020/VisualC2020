@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/VisualC2020/static/css/main.cab122ca.chunk.css",
-    "main.js": "/VisualC2020/static/js/main.05691bc7.chunk.js",
-    "main.js.map": "/VisualC2020/static/js/main.05691bc7.chunk.js.map",
+    "main.css": "/VisualC2020/static/css/main.622dea4d.chunk.css",
+    "main.js": "/VisualC2020/static/js/main.29d97fbb.chunk.js",
+    "main.js.map": "/VisualC2020/static/js/main.29d97fbb.chunk.js.map",
     "runtime-main.js": "/VisualC2020/static/js/runtime-main.37603b73.js",
     "runtime-main.js.map": "/VisualC2020/static/js/runtime-main.37603b73.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2fe37d55.chunk.js": "/VisualC2020/static/js/2.2fe37d55.chunk.js",
-    "static/js/2.2fe37d55.chunk.js.map": "/VisualC2020/static/js/2.2fe37d55.chunk.js.map",
+    "static/js/2.445ec810.chunk.js": "/VisualC2020/static/js/2.445ec810.chunk.js",
+    "static/js/2.445ec810.chunk.js.map": "/VisualC2020/static/js/2.445ec810.chunk.js.map",
     "index.html": "/VisualC2020/index.html",
-    "precache-manifest.3284824330141825f5ae9cbcde248dc3.js": "/VisualC2020/precache-manifest.3284824330141825f5ae9cbcde248dc3.js",
+    "precache-manifest.5b99284b73784d5db2cb4de35dd68c4c.js": "/VisualC2020/precache-manifest.5b99284b73784d5db2cb4de35dd68c4c.js",
     "service-worker.js": "/VisualC2020/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.cab122ca.chunk.css.map": "/VisualC2020/static/css/main.cab122ca.chunk.css.map",
-    "static/js/2.2fe37d55.chunk.js.LICENSE.txt": "/VisualC2020/static/js/2.2fe37d55.chunk.js.LICENSE.txt",
+    "static/css/main.622dea4d.chunk.css.map": "/VisualC2020/static/css/main.622dea4d.chunk.css.map",
+    "static/js/2.445ec810.chunk.js.LICENSE.txt": "/VisualC2020/static/js/2.445ec810.chunk.js.LICENSE.txt",
     "static/media/Daniel.jpeg": "/VisualC2020/static/media/Daniel.c0a7d23b.jpeg",
     "static/media/Fabian.jpeg": "/VisualC2020/static/media/Fabian.c2ddf06b.jpeg",
     "static/media/Ivan.jpg": "/VisualC2020/static/media/Ivan.3fb02902.jpg",
@@ -27,8 +27,8 @@
   "entrypoints": [
     "static/js/runtime-main.37603b73.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2fe37d55.chunk.js",
-    "static/css/main.cab122ca.chunk.css",
-    "static/js/main.05691bc7.chunk.js"
+    "static/js/2.445ec810.chunk.js",
+    "static/css/main.622dea4d.chunk.css",
+    "static/js/main.29d97fbb.chunk.js"
   ]
 }
