@@ -9,6 +9,7 @@ import analisis from '../Assets/profundizacion/analisis.jpg'
 import filtro from '../Assets/profundizacion/filtro.jpg'
 import mapa from '../Assets/profundizacion/mapa.png'
 import reporte from '../Assets/profundizacion/reporte.jpg'
+import todo from '../Assets/profundizacion/todo.jpg'
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
@@ -308,9 +309,25 @@ class home extends React.Component{
                         </Row>
                         <Row >
                             <Col className="col-sm-5">
-                                
+                                <img src={todo} id="covid" className="img-fluid" alt="Responsive image"/>
+                                <blockquote class="blockquote">
+                                    <footer class="blockquote-footer"><cite title="Tomado de:">https://www.workflowmax.com/blog/6-things-that-arent-on-your-daily-to-do-list-but-should-be</cite></footer>
+                                </blockquote>
                             </Col>
                             <Col className="col-sm-7">
+                            
+                                <p>
+                                   Si bien la vista de mapa nos puede dar una visualización general de las localidades en comparación del área ocupada por las mismas en algunos análisis es más comprensible en con gráficos de barras por lo que sería muy útil usar este tipo de graficos con los mismos controles de interacción.
+                                </p>
+                                <p>
+                                    Algo importante en la comparación de comportamiento es poder ajustar el rango de fechas que se grafica, por lo que un control de fecha inicial y fecha final sería muy pertinente para este tipo de análisis.
+                                </p>
+                                <p>
+                                    Poder ver una animación que simula un recorrido dia a dia de las gráficas puede mostrar de manera interactiva los comportamientos de estas gráficas, por lo que agregar un boton de que permita ejecutar la animación y otro que permita modificar la velocidad de la misma puede ser muy útil para el análisis y distinción de patrones.
+                                </p>
+                                <p>
+                                    Elegir el dataset del gobierno nacional y tomando los municipios en lugar de las localidades, permitiría hacer estos mismos análisis pero en un contexto nacional, lo cual podría ser interesante para comparaciones de comportamientos con bogotá.
+                                </p>
                                 
                             </Col>
                             
