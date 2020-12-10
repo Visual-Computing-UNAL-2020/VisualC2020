@@ -37,7 +37,142 @@ class home extends React.Component{
                         </Row>
                     </Card.Body>
                 </Card>
-                                              
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Preguntas</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Data Set</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Análisis</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Filtro</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Minería de datos</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>     
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Representación</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Refinar</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card> 
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Interactuar</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>                                                               
             </Container>
         )
     }
