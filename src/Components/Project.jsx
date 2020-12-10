@@ -7,6 +7,8 @@ import nueva from '../Assets/profundizacion/nueva.png'
 import dataset from '../Assets/profundizacion/dataset.jpg'
 import analisis from '../Assets/profundizacion/analisis.jpg'
 import filtro from '../Assets/profundizacion/filtro.jpg'
+import mapa from '../Assets/profundizacion/mapa.png'
+import reporte from '../Assets/profundizacion/reporte.jpg'
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
@@ -98,7 +100,7 @@ class home extends React.Component{
                             
                         </Row>
                         <Row>
-                            <h3>¿Qué tan efectivas fueron las restricciones de “cuarentena estricta” en comparación de las medidas de la “nueva normalidad” respecto a contagios, muertes y personas en uci?</h3>
+                            <h3>¿Qué localidades, géneros, edades, días han sido los más afectados durante esta pandemia?</h3>
                         </Row>
                         <Row >
                             <Col className="col-sm-5">
@@ -110,6 +112,15 @@ class home extends React.Component{
                             <Col className="col-sm-7">
                                 <p>
                                     Millones de datos se han recopilado en todo el mundo sobre la actual pandemia, y son muchas las iniciativas por interpretar estos datos, sin embargo en nuestro país es la primera vez que enfrentamos una situación como esta. Afortunadamente pandemias anteriores como el Sars no tuvieron una incidencia importante en nuestro país por lo que consideramos valioso darle una interpretación desde nuestra cotidianidad, revisar si las iniciativas que hemos adelantado como país han sido efectivas en nuestra sociedad y cómo podríamos estar preparados para una futura emergencia sanitaria.
+                                </p>
+                                <p>
+                                    Conocer patrones en nuestro país y poderlo comparar puede ser un ejercicio importante para el manejo de virus como el actual, este tipo de análisis nos permite ver si hay localidades con mejor o peor índices de contagios y de muertes, si hay dias específicos de la semana con un patrón específico, si quizás hay un género con mayor incidencia al contagio, etc.
+                                </p>
+                                <p>
+                                    Muchas han sido las medidas que ha tomado la alcaldía, seguirle el paso a los decretos expedidos por uno u otro ente gubernamental no es tarea fácil, cada uno de ellos intentando tomar la mejor decisión con los análisis que sus equipos hacen, sin embargo desde nuestra perspectiva estos datos y decisiones deberían ser de conocimiento público, de manera que la ciudadanía y demás entes gubernamentales puedan tener conocimiento de los análisis y datos tenidos en cuenta para dichas decisiones. 
+                                </p>
+                                <p>
+                                    Es por esto que queremos hacer esta profundización en visualización de datos, que no se centra exclusivamente en la aplicación de una tecnología específica a un conjunto de datos sino que pretende ser un primer paso para el análisis de los datos de esta pandemia en el contexto Bogotáno.
                                 </p>
                             </Col>
                             
@@ -255,6 +266,7 @@ class home extends React.Component{
                                 <p>
                                     Cabe destacar que los dataset no vienen en un formato cvs y tienen algunos comentarios informativos al principio y al final del dataset, por lo que fue necesario un pretratamiento manual de los dataset iniciales para dejarlos en un formato adecuado para el procesamiento.
                                 </p>
+
                             </Col>
                             
                         </Row>
@@ -264,31 +276,25 @@ class home extends React.Component{
                 <Card>
                     <Card.Body>
                         <Row >
-                            <h2>Representación</h2>
+                            <h2>Representación e interactividad</h2>
                         </Row>
                         <Row >
                             <Col className="col-sm-5">
-                                
+                                <img src={reporte} id="covid" className="img-fluid" alt="Responsive image"/>
+                                <blockquote class="blockquote">
+                                    <footer class="blockquote-footer"><cite title="Tomado de:">https://www.smartdatacollective.com/top-7-data-analytics-tools/</cite></footer>
+                                </blockquote>
                             </Col>
                             <Col className="col-sm-7">
-                                
-                            </Col>
-                            
-                        </Row>
-                    </Card.Body>
-                </Card>
-                <hr className="hr-start"/>
-                <Card>
-                    <Card.Body>
-                        <Row >
-                            <h2>Interactuar</h2>
-                        </Row>
-                        <Row >
-                            <Col className="col-sm-5">
-                                
-                            </Col>
-                            <Col className="col-sm-7">
-                                
+                                <p>
+                                    Elegimos para una primera iteración un mapa capaz de delimitar las localidades de bogotá con el fin de mostrar en cada una círculos proporcionales las diferentes métricas elegidas como el género, edad, localidad, etc. Esto lo decidimos ya que consideramos importante mostrar la relación de contagio vs el área de cada localidad.
+                                </p>
+                                <p>
+                                    Esto se desarrolló haciendo uso del api de Google Maps y en el lenguaje de programación JavaScript sin ningún framework
+                                </p>
+                                <p>
+                                    <img src={mapa} id="covid" className="img-fluid" alt="Responsive image"/>
+                                </p>
                             </Col>
                             
                         </Row>
