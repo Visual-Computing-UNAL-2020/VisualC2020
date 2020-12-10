@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51ffbecb86e51d3f942ec98ba3fb7a03",
+    "revision": "8765732c0a3966ad9ad7f186f0bc76e5",
     "url": "/VisualC2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "ea2915c8d4cc4eadbf67",
+    "revision": "4a39757e63738095715a",
     "url": "/VisualC2020/static/css/main.6cb91b06.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/VisualC2020/static/js/2.9c6d6221.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea2915c8d4cc4eadbf67",
-    "url": "/VisualC2020/static/js/main.5c9d4772.chunk.js"
+    "revision": "4a39757e63738095715a",
+    "url": "/VisualC2020/static/js/main.b875de53.chunk.js"
   },
   {
     "revision": "3d2a80add4661be4e1a8",

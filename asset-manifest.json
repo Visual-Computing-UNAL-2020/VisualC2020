@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/VisualC2020/static/css/main.6cb91b06.chunk.css",
-    "main.js": "/VisualC2020/static/js/main.5c9d4772.chunk.js",
-    "main.js.map": "/VisualC2020/static/js/main.5c9d4772.chunk.js.map",
+    "main.js": "/VisualC2020/static/js/main.b875de53.chunk.js",
+    "main.js.map": "/VisualC2020/static/js/main.b875de53.chunk.js.map",
     "runtime-main.js": "/VisualC2020/static/js/runtime-main.37603b73.js",
     "runtime-main.js.map": "/VisualC2020/static/js/runtime-main.37603b73.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.9c6d6221.chunk.js": "/VisualC2020/static/js/2.9c6d6221.chunk.js",
     "static/js/2.9c6d6221.chunk.js.map": "/VisualC2020/static/js/2.9c6d6221.chunk.js.map",
     "index.html": "/VisualC2020/index.html",
-    "precache-manifest.048fa19feba03aa7c5c045ff001e15eb.js": "/VisualC2020/precache-manifest.048fa19feba03aa7c5c045ff001e15eb.js",
+    "precache-manifest.a01d32c5f0c178ff3b250eec7f0667b4.js": "/VisualC2020/precache-manifest.a01d32c5f0c178ff3b250eec7f0667b4.js",
     "service-worker.js": "/VisualC2020/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/VisualC2020/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.6cb91b06.chunk.css.map": "/VisualC2020/static/css/main.6cb91b06.chunk.css.map",
@@ -45,6 +45,6 @@
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.9c6d6221.chunk.js",
     "static/css/main.6cb91b06.chunk.css",
-    "static/js/main.5c9d4772.chunk.js"
+    "static/js/main.b875de53.chunk.js"
   ]
 }
