@@ -10,6 +10,8 @@ import filtro from '../Assets/profundizacion/filtro.jpg'
 import mapa from '../Assets/profundizacion/mapa.png'
 import reporte from '../Assets/profundizacion/reporte.jpg'
 import todo from '../Assets/profundizacion/todo.jpg'
+import data from '../Assets/profundizacion/data.jpg'
+import ver from '../Assets/profundizacion/ver.png'
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
@@ -135,42 +137,78 @@ class home extends React.Component{
                             <h2>Estado Actual</h2>
                         </Row>
                         <Row >
+                            <h3>Datasets</h3>
+                        </Row>
+                        <Row >
                             <Col className="col-sm-5">
-                                
+                                <img src={data} id="covid" className="img-fluid" alt="Responsive image"/>
+                                <blockquote class="blockquote">
+                                    <footer class="blockquote-footer"><cite title="Tomado de:">http://emb.cl/gerencia/noticia.mvc?nid=20191010p1&ni=sap-anuncia-rediseno-de-hana-y-data-warehouse</cite></footer>
+                                </blockquote>
                             </Col>
                             <Col className="col-sm-7">
                                 <p>
                                     Para este análisis encontramos muchas fuentes de información tanto nacional como internacional, algunas no eran claras en la obtención de estos datos y otras parecían tener información desactualizada, algunos dataset los encontramos en los siguientes sitios:
-                                    https://datosabiertos.bogota.gov.co/
-                                    https://saludata.saludcapital.gov.co/
-                                    https://www.datos.gov.co/
+                                </p>
+                 
+                                <ul>
+                                    <li>https://datosabiertos.bogota.gov.co/</li>
+                                    <li>https://saludata.saludcapital.gov.co/</li>
+                                    <li>https://www.datos.gov.co/</li>
+                                </ul>
+                               
+                            </Col>
+                            
+                        </Row>
+                        <Row >
+                            <h3>Visualización</h3>
+                            
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                <img src={ver} id="covid" className="img-fluid" alt="Responsive image"/>
+                                <blockquote class="blockquote">
+                                    <footer class="blockquote-footer"><cite title="Tomado de:">https://medium.muz.li/guide-to-data-visualization-comparison-part-1-678382ceef00</cite></footer>
+                                </blockquote>
+                            </Col>
+                            <Col className="col-sm-7">
+                            <p>También encontramos muchas iniciativas de visualización de datos del contexto nacional, algunas de ellas fueron:</p>
 
-                                    También encontramos muchas iniciativas de visualización de datos del contexto nacional, algunas de ellas fueron:
-                                    Google
+                                <h4>Google</h4>
+                                <p>
                                     Presenta estadísticas de los casos positivos y muertes de todo el mundo, algunos de los gráficos que muestra son mapa interactivo, gráfico de casos diarios y un gráfico de muertes diarias que se puede filtrar por país y en algunos casos por ciudad.
                                     https://news.google.com/covid19/
 
-                                    Universidad Johns Hopkins.
+                                </p>
+                               
+                                <h4>Universidad Johns Hopkins</h4>
+                                <p>
                                     El centro de ciencia e ingeniería de sistemas de la Universidad Johns Hopkins presenta un mapa donde muestra la cantidad de contagios por ciudad. Algo que cabe resaltar es que el código de la visualización así como el lugar de donde sacan los datos está expuesto públicamente en un repositorio de GitHub
                                     https://github.com/CSSEGISandData/COVID-19
                                     https://coronavirus.jhu.edu/map.html
+                                </p>
 
-
-                                    Gobierno Nacional de Colombia:
+                                <h4>Gobierno Nacional de Colombia</h4>
+                                <p>
                                     En varias páginas oficiales el Gobierno nacional ha decidido mostrar gráficas de con información principalmente de contagios, muertes y ocupación de las UCI de cada día, haciendo especial énfasis en la sumatoria de los datos importantes como casos activos, recuperados, fallecidos, pruebas procesadas, etc.
                                     https://coronaviruscolombia.gov.co/Covid19/index.html
                                     https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx
                                     http://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx
+                                </p>
 
-                                    Alcaldía Mayor de Bogotá
+                                <h4>Alcaldía Mayor de Bogotá</h4>
+                                <p>
                                     La muestra gráficos y datos tras la recopilación, depuración y seguimiento de los casos confirmados, realizado por la Subsecretaría de Salud Pública, de la Secretaría Distrital de Salud, y procesados por La Red Distrital de Laboratorios.
                                     https://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/enfermedades-trasmisibles/covid19/
+                                </p>  
 
-                                    Cámara de Comercio de Bogotá
+                                <h4>Cámara de Comercio de Bogotá</h4>
+                                <p>
                                     El observatorio de la CCB muestra varios gráficos y mapas con la información del gobierno nacional y distrital dándole un énfasis desde lo financiero , los principales impactos en el crecimiento, el empleo y en la actividad empresarial, especialmente en las micro y pequeñas empresas que son el 97% de la estructura empresarial de Bogotá y la región. También se incluyen los resultados de las encuestas a los empresarios realizadas.
                                     https://www.ccb.org.co/observatorio/Economia/Economia-dinamica-incluyente-e-innovadora/Impacto-del-COVID-19
 
-                                </p>
+                                </p>     
+
                             </Col>
                             
                         </Row>
