@@ -126,35 +126,35 @@ class home extends React.Component{
                             </Col>
                             <Col className="col-sm-7">
                                 <p>
-                                Para este análisis encontramos muchas fuentes de información tanto nacional como internacional, algunas no eran claras en la obtención de estos datos y otras parecían tener información desactualizada, algunos dataset los encontramos en los siguientes sitios:
-https://datosabiertos.bogota.gov.co/
-https://saludata.saludcapital.gov.co/
-https://www.datos.gov.co/
+                                    Para este análisis encontramos muchas fuentes de información tanto nacional como internacional, algunas no eran claras en la obtención de estos datos y otras parecían tener información desactualizada, algunos dataset los encontramos en los siguientes sitios:
+                                    https://datosabiertos.bogota.gov.co/
+                                    https://saludata.saludcapital.gov.co/
+                                    https://www.datos.gov.co/
 
-También encontramos muchas iniciativas de visualización de datos del contexto nacional, algunas de ellas fueron:
-Google
-Presenta estadísticas de los casos positivos y muertes de todo el mundo, algunos de los gráficos que muestra son mapa interactivo, gráfico de casos diarios y un gráfico de muertes diarias que se puede filtrar por país y en algunos casos por ciudad.
-https://news.google.com/covid19/
+                                    También encontramos muchas iniciativas de visualización de datos del contexto nacional, algunas de ellas fueron:
+                                    Google
+                                    Presenta estadísticas de los casos positivos y muertes de todo el mundo, algunos de los gráficos que muestra son mapa interactivo, gráfico de casos diarios y un gráfico de muertes diarias que se puede filtrar por país y en algunos casos por ciudad.
+                                    https://news.google.com/covid19/
 
-Universidad Johns Hopkins.
-El centro de ciencia e ingeniería de sistemas de la Universidad Johns Hopkins presenta un mapa donde muestra la cantidad de contagios por ciudad. Algo que cabe resaltar es que el código de la visualización así como el lugar de donde sacan los datos está expuesto públicamente en un repositorio de GitHub
-https://github.com/CSSEGISandData/COVID-19
-https://coronavirus.jhu.edu/map.html
+                                    Universidad Johns Hopkins.
+                                    El centro de ciencia e ingeniería de sistemas de la Universidad Johns Hopkins presenta un mapa donde muestra la cantidad de contagios por ciudad. Algo que cabe resaltar es que el código de la visualización así como el lugar de donde sacan los datos está expuesto públicamente en un repositorio de GitHub
+                                    https://github.com/CSSEGISandData/COVID-19
+                                    https://coronavirus.jhu.edu/map.html
 
 
-Gobierno Nacional de Colombia:
-En varias páginas oficiales el Gobierno nacional ha decidido mostrar gráficas de con información principalmente de contagios, muertes y ocupación de las UCI de cada día, haciendo especial énfasis en la sumatoria de los datos importantes como casos activos, recuperados, fallecidos, pruebas procesadas, etc.
-https://coronaviruscolombia.gov.co/Covid19/index.html
-https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx
-http://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx
+                                    Gobierno Nacional de Colombia:
+                                    En varias páginas oficiales el Gobierno nacional ha decidido mostrar gráficas de con información principalmente de contagios, muertes y ocupación de las UCI de cada día, haciendo especial énfasis en la sumatoria de los datos importantes como casos activos, recuperados, fallecidos, pruebas procesadas, etc.
+                                    https://coronaviruscolombia.gov.co/Covid19/index.html
+                                    https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx
+                                    http://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx
 
-Alcaldía Mayor de Bogotá
-La muestra gráficos y datos tras la recopilación, depuración y seguimiento de los casos confirmados, realizado por la Subsecretaría de Salud Pública, de la Secretaría Distrital de Salud, y procesados por La Red Distrital de Laboratorios.
-https://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/enfermedades-trasmisibles/covid19/
+                                    Alcaldía Mayor de Bogotá
+                                    La muestra gráficos y datos tras la recopilación, depuración y seguimiento de los casos confirmados, realizado por la Subsecretaría de Salud Pública, de la Secretaría Distrital de Salud, y procesados por La Red Distrital de Laboratorios.
+                                    https://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/enfermedades-trasmisibles/covid19/
 
-Cámara de Comercio de Bogotá
-El observatorio de la CCB muestra varios gráficos y mapas con la información del gobierno nacional y distrital dándole un énfasis desde lo financiero , los principales impactos en el crecimiento, el empleo y en la actividad empresarial, especialmente en las micro y pequeñas empresas que son el 97% de la estructura empresarial de Bogotá y la región. También se incluyen los resultados de las encuestas a los empresarios realizadas.
-https://www.ccb.org.co/observatorio/Economia/Economia-dinamica-incluyente-e-innovadora/Impacto-del-COVID-19
+                                    Cámara de Comercio de Bogotá
+                                    El observatorio de la CCB muestra varios gráficos y mapas con la información del gobierno nacional y distrital dándole un énfasis desde lo financiero , los principales impactos en el crecimiento, el empleo y en la actividad empresarial, especialmente en las micro y pequeñas empresas que son el 97% de la estructura empresarial de Bogotá y la región. También se incluyen los resultados de las encuestas a los empresarios realizadas.
+                                    https://www.ccb.org.co/observatorio/Economia/Economia-dinamica-incluyente-e-innovadora/Impacto-del-COVID-19
 
                                 </p>
                             </Col>
@@ -176,6 +176,26 @@ https://www.ccb.org.co/observatorio/Economia/Economia-dinamica-incluyente-e-inno
                                 </blockquote>
                             </Col>
                             <Col className="col-sm-7">
+                                <p>
+                                    Después del análisis de las diferentes fuentes de datos y diferentes visualizaciones que existen actualmente, decidimos usar 2 que contenían la mayoría de datos que consideramos importantes para nuestro análisis, ambos dataset son de entidades oficiales del gobierno nacional. Los dataset elegidos fueron:
+                                </p>
+                                <ul>
+                                    <li>Casos positivos de COVID-19 en Colombia (232.475 KB)
+                                        <p>
+                                            <a href="https://www.datos.gov.co/en/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr">https://www.datos.gov.co/en/Salud-y-Protecci-n-Social/</a>
+                                        </p>
+                                    </li>
+                                    <li>Uso de UCI en Bogotá (8KB)
+                                        <p>
+                                            <a href="https://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/enfermedades-trasmisibles/ocupacion-ucis/">https://saludata.saludcapital.gov.co/osb/index.php/</a>
+                                        </p>
+                                    </li>
+                                </ul>
+
+                                    
+                                    
+                                    
+                                    
                                 
                             </Col>
                             
