@@ -4,6 +4,7 @@ import React from 'react'
 import covid from '../Assets/profundizacion/covid19.jpg'
 import coronapp from '../Assets/profundizacion/coronapp.jpg'
 import nueva from '../Assets/profundizacion/nueva.png'
+import dataset from '../Assets/profundizacion/dataset.jpg'
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
@@ -32,7 +33,7 @@ class home extends React.Component{
 
                             </Col>
                             <Col className="col-sm-8">
-                                <p>Nuestro grupo decidimos hacer la profundización en el tema de visualización de datos y el tema que elegimos fue covid 19 en la ciudad de Bogotá.</p>
+                                <p>Nuestro grupo decidió hacer la profundización en visualización de datos y el tema que elegimos fue Covid 19 en la ciudad de Bogotá.</p>
                                 <p>Originalmente queríamos indagar sobre la deserción escolar en Bogotá pero el dataset que encontramos tenía muy poca información así que decidimos elegir un dataset más interesante y que tuviera más historias por contar y nos decidimos por el de covid 19.</p>
                                 <blockquote class="blockquote">
                                     <footer class="blockquote-footer"><cite title="Source Title">https://datosabiertos.bogota.gov.co</cite></footer>
@@ -105,7 +106,9 @@ class home extends React.Component{
                                 </blockquote>
                             </Col>
                             <Col className="col-sm-7">
-                                
+                                <p>
+                                    Millones de datos se han recopilado en todo el mundo sobre la actual pandemia, y son muchas las iniciativas por interpretar estos datos, sin embargo en nuestro país es la primera vez que enfrentamos una situación como esta. Afortunadamente pandemias anteriores como el Sars no tuvieron una incidencia importante en nuestro país por lo que consideramos valioso darle una interpretación desde nuestra cotidianidad, revisar si las iniciativas que hemos adelantado como país han sido efectivas en nuestra sociedad y cómo podríamos estar preparados para una futura emergencia sanitaria.
+                                </p>
                             </Col>
                             
                         </Row>
@@ -115,11 +118,62 @@ class home extends React.Component{
                 <Card>
                     <Card.Body>
                         <Row >
-                            <h2>Data Set</h2>
+                            <h2>Estado Actual</h2>
                         </Row>
                         <Row >
                             <Col className="col-sm-5">
                                 
+                            </Col>
+                            <Col className="col-sm-7">
+                                <p>
+                                Para este análisis encontramos muchas fuentes de información tanto nacional como internacional, algunas no eran claras en la obtención de estos datos y otras parecían tener información desactualizada, algunos dataset los encontramos en los siguientes sitios:
+https://datosabiertos.bogota.gov.co/
+https://saludata.saludcapital.gov.co/
+https://www.datos.gov.co/
+
+También encontramos muchas iniciativas de visualización de datos del contexto nacional, algunas de ellas fueron:
+Google
+Presenta estadísticas de los casos positivos y muertes de todo el mundo, algunos de los gráficos que muestra son mapa interactivo, gráfico de casos diarios y un gráfico de muertes diarias que se puede filtrar por país y en algunos casos por ciudad.
+https://news.google.com/covid19/
+
+Universidad Johns Hopkins.
+El centro de ciencia e ingeniería de sistemas de la Universidad Johns Hopkins presenta un mapa donde muestra la cantidad de contagios por ciudad. Algo que cabe resaltar es que el código de la visualización así como el lugar de donde sacan los datos está expuesto públicamente en un repositorio de GitHub
+https://github.com/CSSEGISandData/COVID-19
+https://coronavirus.jhu.edu/map.html
+
+
+Gobierno Nacional de Colombia:
+En varias páginas oficiales el Gobierno nacional ha decidido mostrar gráficas de con información principalmente de contagios, muertes y ocupación de las UCI de cada día, haciendo especial énfasis en la sumatoria de los datos importantes como casos activos, recuperados, fallecidos, pruebas procesadas, etc.
+https://coronaviruscolombia.gov.co/Covid19/index.html
+https://www.minsalud.gov.co/salud/publica/PET/Paginas/Covid-19_copia.aspx
+http://www.ins.gov.co/Noticias/Paginas/Coronavirus.aspx
+
+Alcaldía Mayor de Bogotá
+La muestra gráficos y datos tras la recopilación, depuración y seguimiento de los casos confirmados, realizado por la Subsecretaría de Salud Pública, de la Secretaría Distrital de Salud, y procesados por La Red Distrital de Laboratorios.
+https://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/enfermedades-trasmisibles/covid19/
+
+Cámara de Comercio de Bogotá
+El observatorio de la CCB muestra varios gráficos y mapas con la información del gobierno nacional y distrital dándole un énfasis desde lo financiero , los principales impactos en el crecimiento, el empleo y en la actividad empresarial, especialmente en las micro y pequeñas empresas que son el 97% de la estructura empresarial de Bogotá y la región. También se incluyen los resultados de las encuestas a los empresarios realizadas.
+https://www.ccb.org.co/observatorio/Economia/Economia-dinamica-incluyente-e-innovadora/Impacto-del-COVID-19
+
+                                </p>
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>                
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Data Set</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                <img src={dataset} id="covid" className="img-fluid" alt="Responsive image"/>
+                                <blockquote class="blockquote">
+                                    <footer class="blockquote-footer"><cite title="Tomado de:">https://blogs.imf-formacion.com/blog/tecnologia/que-es-google-dataset-search-y-para-que-sirve-201809/</cite></footer>
+                                </blockquote>
                             </Col>
                             <Col className="col-sm-7">
                                 
