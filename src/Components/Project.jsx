@@ -319,6 +319,8 @@ class home extends React.Component{
                                     Cabe destacar que los dataset no vienen en un formato cvs y tienen algunos comentarios informativos al principio y al final del dataset, por lo que fue necesario un pretratamiento manual de los dataset iniciales para dejarlos en un formato adecuado para el procesamiento.
                                 </p>
 
+                                <a href="https://github.com/Visual-Computing-UNAL-2020/Profundizacion/tree/master/data">Dataset aqui</a>
+
                             </Col>
                             
                         </Row>
@@ -347,6 +349,8 @@ class home extends React.Component{
                                 <p>
                                     <img src={mapa} id="covid" className="img-fluid" alt="Responsive image"/>
                                 </p>
+                                <a href="https://github.com/Visual-Computing-UNAL-2020/Profundizacion">Codigo fuente aqui</a>
+
                             </Col>
                             
                         </Row>
