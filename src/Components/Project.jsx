@@ -5,6 +5,7 @@ import covid from '../Assets/profundizacion/covid19.jpg'
 import coronapp from '../Assets/profundizacion/coronapp.jpg'
 import nueva from '../Assets/profundizacion/nueva.png'
 import dataset from '../Assets/profundizacion/dataset.jpg'
+import analisis from '../Assets/profundizacion/analisis.jpg'
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
@@ -191,12 +192,6 @@ class home extends React.Component{
                                         </p>
                                     </li>
                                 </ul>
-
-                                    
-                                    
-                                    
-                                    
-                                
                             </Col>
                             
                         </Row>
@@ -210,10 +205,24 @@ class home extends React.Component{
                         </Row>
                         <Row >
                             <Col className="col-sm-5">
-                                
+                                <img src={analisis} id="covid" className="img-fluid" alt="Responsive image"/>
+                                <blockquote class="blockquote">
+                                    <footer class="blockquote-footer"><cite title="Tomado de:">https://img.freepik.com/vector-gratis/ilustracion-concepto-analisis_114360-1119.jpg?size=338&ext=jpg</cite></footer>
+                                </blockquote>
                             </Col>
                             <Col className="col-sm-7">
-                                
+                                <p>
+                                    Se hizo una exploración inicial de los datos en cuanto a cantidad de datos, cantidad de columnas y peso de cada dataset.
+                                </p>
+                                <p>
+                                    Por una parte el dataset de “Uso de UCI en Bogotá” es un dataset sencillo, con apena 8KB de peso, 245 registros y 4 columnas (Fecha, Camas UCI ocupadas Covid-19, Camas UCI Disponibles COVID 19, Ocupación UCI COVID 19).
+                                </p>
+                                <p>
+                                    Por otra parte el dataset “Casos positivos de COVID-19 en Colombia” es un dataset muy pesado con 232.475 KB, más de un millón de registros y 23 columnas.
+                                </p>
+                                <p>
+                                    Desde esta etapa se pudo ver que el dataset debía ser filtrado para que su procesamiento fuera más ágil. 
+                                </p>
                             </Col>
                             
                         </Row>
