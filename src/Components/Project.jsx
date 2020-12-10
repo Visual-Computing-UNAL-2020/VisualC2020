@@ -6,6 +6,7 @@ import coronapp from '../Assets/profundizacion/coronapp.jpg'
 import nueva from '../Assets/profundizacion/nueva.png'
 import dataset from '../Assets/profundizacion/dataset.jpg'
 import analisis from '../Assets/profundizacion/analisis.jpg'
+import filtro from '../Assets/profundizacion/filtro.jpg'
 //bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
 import {Container,Row,Col,Card} from 'react-bootstrap'
@@ -181,9 +182,9 @@ class home extends React.Component{
                                     Después del análisis de las diferentes fuentes de datos y diferentes visualizaciones que existen actualmente, decidimos usar 2 que contenían la mayoría de datos que consideramos importantes para nuestro análisis, ambos dataset son de entidades oficiales del gobierno nacional. Los dataset elegidos fueron:
                                 </p>
                                 <ul>
-                                    <li>Casos positivos de COVID-19 en Colombia (232.475 KB)
+                                    <li>Casos confirmados de COVID-19 en Bogotá D.C. (29.309 KB)
                                         <p>
-                                            <a href="https://www.datos.gov.co/en/Salud-y-Protecci-n-Social/Casos-positivos-de-COVID-19-en-Colombia/gt2j-8ykr">https://www.datos.gov.co/en/Salud-y-Protecci-n-Social/</a>
+                                            <a href="https://saludata.saludcapital.gov.co/osb/index.php/datos-de-salud/enfermedades-trasmisibles/covid19/">https://saludata.saludcapital.gov.co/osb/index.php/</a>
                                         </p>
                                     </li>
                                     <li>Uso de UCI en Bogotá (8KB)
@@ -218,7 +219,7 @@ class home extends React.Component{
                                     Por una parte el dataset de “Uso de UCI en Bogotá” es un dataset sencillo, con apena 8KB de peso, 245 registros y 4 columnas (Fecha, Camas UCI ocupadas Covid-19, Camas UCI Disponibles COVID 19, Ocupación UCI COVID 19).
                                 </p>
                                 <p>
-                                    Por otra parte el dataset “Casos positivos de COVID-19 en Colombia” es un dataset muy pesado con 232.475 KB, más de un millón de registros y 23 columnas.
+                                Por otra parte el dataset “Casos confirmados de COVID-19 en Bogotá D.C” es un dataset pesado con 29.309 KB, casi 400.000 registros y 11 columnas.
                                 </p>
                                 <p>
                                     Desde esta etapa se pudo ver que el dataset debía ser filtrado para que su procesamiento fuera más ágil. 
@@ -236,32 +237,29 @@ class home extends React.Component{
                         </Row>
                         <Row >
                             <Col className="col-sm-5">
-                                
+                                <img src={filtro} id="covid" className="img-fluid" alt="Responsive image"/>
+                                <blockquote class="blockquote">
+                                    <footer class="blockquote-footer"><cite title="Tomado de:">https://es.123rf.com/photo_63445004_filtro-de-datos-an%C3%A1lisis-de-datos-en-el-concepto-de-dispositivo-m%C3%B3vil.html</cite></footer>
+                                </blockquote>
                             </Col>
                             <Col className="col-sm-7">
-                                
+                                <p>
+                                    Haciendo un análisis de cada dataset se pudo ver que no todas las columnas del dataset eran importantes, sin embargo era importante cada uno de los registros por lo que consideramos que no era adecuado hacer un muestreo de los datos recopilados. 
+                                </p>
+                                <p>
+                                    En el dataset de “Uso de UCI en Bogotá” dejamos las columnas todas las columnas, en un principio quitamos la columna de “Ocupación UCI COVID 19” ya que esta muestra el porcentaje de uso de las UCI y para nuestro análisis pareciera no tener importancia, sin embargo decidimos dejarlo para analizar si tenían alguna correlación el crecimiento de UCI disponibles con las medidas adoptadas por la Administración Distrital.
+                                </p>
+                                <p>
+                                    Finalmente en el dataset “Casos confirmados de COVID-19 en Bogotá D.C.” se decidió dejar las columnas (FECHA_DIAGNOSTICO, LOCALIDAD_ASIS,	EDAD,	SEXO, ESTADO) y se quitaron otras como el id del caso, la ciudad, ya que todos los datos son de bogotá, la fuente de contagio, etc.
+                                </p>
+                                <p>
+                                    Cabe destacar que los dataset no vienen en un formato cvs y tienen algunos comentarios informativos al principio y al final del dataset, por lo que fue necesario un pretratamiento manual de los dataset iniciales para dejarlos en un formato adecuado para el procesamiento.
+                                </p>
                             </Col>
                             
                         </Row>
                     </Card.Body>
                 </Card>
-                <hr className="hr-start"/>
-                <Card>
-                    <Card.Body>
-                        <Row >
-                            <h2>Minería de datos</h2>
-                        </Row>
-                        <Row >
-                            <Col className="col-sm-5">
-                                
-                            </Col>
-                            <Col className="col-sm-7">
-                                
-                            </Col>
-                            
-                        </Row>
-                    </Card.Body>
-                </Card>     
                 <hr className="hr-start"/>
                 <Card>
                     <Card.Body>
@@ -283,23 +281,6 @@ class home extends React.Component{
                 <Card>
                     <Card.Body>
                         <Row >
-                            <h2>Refinar</h2>
-                        </Row>
-                        <Row >
-                            <Col className="col-sm-5">
-                                
-                            </Col>
-                            <Col className="col-sm-7">
-                                
-                            </Col>
-                            
-                        </Row>
-                    </Card.Body>
-                </Card> 
-                <hr className="hr-start"/>
-                <Card>
-                    <Card.Body>
-                        <Row >
                             <h2>Interactuar</h2>
                         </Row>
                         <Row >
@@ -312,7 +293,25 @@ class home extends React.Component{
                             
                         </Row>
                     </Card.Body>
-                </Card>                                                               
+                </Card>
+                <hr className="hr-start"/>
+                <Card>
+                    <Card.Body>
+                        <Row >
+                            <h2>Trabajo Futuro</h2>
+                        </Row>
+                        <Row >
+                            <Col className="col-sm-5">
+                                
+                            </Col>
+                            <Col className="col-sm-7">
+                                
+                            </Col>
+                            
+                        </Row>
+                    </Card.Body>
+                </Card>                 
+
             </Container>
         )
     }
